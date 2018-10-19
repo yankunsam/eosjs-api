@@ -4,6 +4,16 @@
     "params": null,
     "results": "string"
   },
+  "get_test": {
+    "brief": "Return the action data",
+    "params": {
+      "packed_trx": "string"
+    },
+    "results": {
+      "test": "chain:bytes"
+    }
+  },
+
   "get_account": {
     "brief": "Fetch a blockchain account",
     "params": {
